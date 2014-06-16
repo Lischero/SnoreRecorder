@@ -8,4 +8,5 @@
 
 @interface MGInfoTransmitter : NSObject
 
+- (id)init;
 @end

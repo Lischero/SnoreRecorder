@@ -17,7 +17,7 @@
     terminatingDate=[NSDate date];
 }
 
-// 最小化された後最呼び出し時の挙動
+// 最小化から復帰時の挙動
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
 {
     [self.window makeKeyAndOrderFront:nil];

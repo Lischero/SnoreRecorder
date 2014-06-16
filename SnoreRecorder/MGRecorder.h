@@ -11,4 +11,17 @@
 {
     
 }
+
+// 初期化
+- (id)init;
+
+// 感知開始
+- (void)fire;
+
+// 記録開始
+- (void)start;
+
+// 感知終了
+- (void)end;
+
 @end

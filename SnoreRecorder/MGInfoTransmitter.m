@@ -8,4 +8,13 @@
 
 @implementation MGInfoTransmitter
 
+- (id)init
+{
+    if([super init]) {
+        
+    }
+    
+    return self;
+}
+
 @end
