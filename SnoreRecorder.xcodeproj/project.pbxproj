@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC2C94C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */; };
+		ABC2C956194EAE4E00D7CC36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C954194EAE4E00D7CC36 /* InfoPlist.strings */; };
+		ABC2C958194EAE4E00D7CC36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2C957194EAE4E00D7CC36 /* main.m */; };
+		ABC2C95C194EAE4E00D7CC36 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C95A194EAE4E00D7CC36 /* Credits.rtf */; };
+		ABC2C95F194EAE4E00D7CC36 /* MGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2C95E194EAE4E00D7CC36 /* MGAppDelegate.m */; };
+		ABC2C962194EAE4E00D7CC36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C960194EAE4E00D7CC36 /* MainMenu.xib */; };
+		ABC2C964194EAE4E00D7CC36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C963194EAE4E00D7CC36 /* Images.xcassets */; };
+		ABC2C96B194EAE4E00D7CC36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2C96A194EAE4E00D7CC36 /* XCTest.framework */; };
+		ABC2C96C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */; };
+		ABC2C974194EAE4E00D7CC36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C972194EAE4E00D7CC36 /* InfoPlist.strings */; };
+		ABC2C976194EAE4E00D7CC36 /* SnoreRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2C975194EAE4E00D7CC36 /* SnoreRecorderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC2C96D194EAE4E00D7CC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC2C940194EAE4E00D7CC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC2C947194EAE4E00D7CC36;
+			remoteInfo = SnoreRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC2C948194EAE4E00D7CC36 /* SnoreRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABC2C94E194EAE4E00D7CC36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABC2C94F194EAE4E00D7CC36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABC2C950194EAE4E00D7CC36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABC2C953194EAE4E00D7CC36 /* SnoreRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnoreRecorder-Info.plist"; sourceTree = "<group>"; };
+		ABC2C955194EAE4E00D7CC36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC2C957194EAE4E00D7CC36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC2C959194EAE4E00D7CC36 /* SnoreRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnoreRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		ABC2C95B194EAE4E00D7CC36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABC2C95D194EAE4E00D7CC36 /* MGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAppDelegate.h; sourceTree = "<group>"; };
+		ABC2C95E194EAE4E00D7CC36 /* MGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAppDelegate.m; sourceTree = "<group>"; };
+		ABC2C961194EAE4E00D7CC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABC2C963194EAE4E00D7CC36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC2C969194EAE4E00D7CC36 /* SnoreRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoreRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2C96A194EAE4E00D7CC36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABC2C971194EAE4E00D7CC36 /* SnoreRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnoreRecorderTests-Info.plist"; sourceTree = "<group>"; };
+		ABC2C973194EAE4E00D7CC36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC2C975194EAE4E00D7CC36 /* SnoreRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnoreRecorderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC2C945194EAE4E00D7CC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C94C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC2C966194EAE4E00D7CC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C96C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */,
+				ABC2C96B194EAE4E00D7CC36 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC2C93F194EAE4E00D7CC36 = {
+			isa = PBXGroup;
+			children = (
+				ABC2C951194EAE4E00D7CC36 /* SnoreRecorder */,
+				ABC2C96F194EAE4E00D7CC36 /* SnoreRecorderTests */,
+				ABC2C94A194EAE4E00D7CC36 /* Frameworks */,
+				ABC2C949194EAE4E00D7CC36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC2C949194EAE4E00D7CC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C948194EAE4E00D7CC36 /* SnoreRecorder.app */,
+				ABC2C969194EAE4E00D7CC36 /* SnoreRecorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC2C94A194EAE4E00D7CC36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */,
+				ABC2C96A194EAE4E00D7CC36 /* XCTest.framework */,
+				ABC2C94D194EAE4E00D7CC36 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC2C94D194EAE4E00D7CC36 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C94E194EAE4E00D7CC36 /* AppKit.framework */,
+				ABC2C94F194EAE4E00D7CC36 /* CoreData.framework */,
+				ABC2C950194EAE4E00D7CC36 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABC2C951194EAE4E00D7CC36 /* SnoreRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C95D194EAE4E00D7CC36 /* MGAppDelegate.h */,
+				ABC2C95E194EAE4E00D7CC36 /* MGAppDelegate.m */,
+				ABC2C960194EAE4E00D7CC36 /* MainMenu.xib */,
+				ABC2C963194EAE4E00D7CC36 /* Images.xcassets */,
+				ABC2C952194EAE4E00D7CC36 /* Supporting Files */,
+			);
+			path = SnoreRecorder;
+			sourceTree = "<group>";
+		};
+		ABC2C952194EAE4E00D7CC36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C953194EAE4E00D7CC36 /* SnoreRecorder-Info.plist */,
+				ABC2C954194EAE4E00D7CC36 /* InfoPlist.strings */,
+				ABC2C957194EAE4E00D7CC36 /* main.m */,
+				ABC2C959194EAE4E00D7CC36 /* SnoreRecorder-Prefix.pch */,
+				ABC2C95A194EAE4E00D7CC36 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC2C96F194EAE4E00D7CC36 /* SnoreRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C975194EAE4E00D7CC36 /* SnoreRecorderTests.m */,
+				ABC2C970194EAE4E00D7CC36 /* Supporting Files */,
+			);
+			path = SnoreRecorderTests;
+			sourceTree = "<group>";
+		};
+		ABC2C970194EAE4E00D7CC36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2C971194EAE4E00D7CC36 /* SnoreRecorderTests-Info.plist */,
+				ABC2C972194EAE4E00D7CC36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC2C947194EAE4E00D7CC36 /* SnoreRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC2C979194EAE4F00D7CC36 /* Build configuration list for PBXNativeTarget "SnoreRecorder" */;
+			buildPhases = (
+				ABC2C944194EAE4E00D7CC36 /* Sources */,
+				ABC2C945194EAE4E00D7CC36 /* Frameworks */,
+				ABC2C946194EAE4E00D7CC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnoreRecorder;
+			productName = SnoreRecorder;
+			productReference = ABC2C948194EAE4E00D7CC36 /* SnoreRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC2C968194EAE4E00D7CC36 /* SnoreRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC2C97C194EAE4F00D7CC36 /* Build configuration list for PBXNativeTarget "SnoreRecorderTests" */;
+			buildPhases = (
+				ABC2C965194EAE4E00D7CC36 /* Sources */,
+				ABC2C966194EAE4E00D7CC36 /* Frameworks */,
+				ABC2C967194EAE4E00D7CC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC2C96E194EAE4E00D7CC36 /* PBXTargetDependency */,
+			);
+			name = SnoreRecorderTests;
+			productName = SnoreRecorderTests;
+			productReference = ABC2C969194EAE4E00D7CC36 /* SnoreRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC2C940194EAE4E00D7CC36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "藤森浩平";
+				TargetAttributes = {
+					ABC2C968194EAE4E00D7CC36 = {
+						TestTargetID = ABC2C947194EAE4E00D7CC36;
+					};
+				};
+			};
+			buildConfigurationList = ABC2C943194EAE4E00D7CC36 /* Build configuration list for PBXProject "SnoreRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC2C93F194EAE4E00D7CC36;
+			productRefGroup = ABC2C949194EAE4E00D7CC36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC2C947194EAE4E00D7CC36 /* SnoreRecorder */,
+				ABC2C968194EAE4E00D7CC36 /* SnoreRecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC2C946194EAE4E00D7CC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C956194EAE4E00D7CC36 /* InfoPlist.strings in Resources */,
+				ABC2C964194EAE4E00D7CC36 /* Images.xcassets in Resources */,
+				ABC2C95C194EAE4E00D7CC36 /* Credits.rtf in Resources */,
+				ABC2C962194EAE4E00D7CC36 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC2C967194EAE4E00D7CC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C974194EAE4E00D7CC36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC2C944194EAE4E00D7CC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C95F194EAE4E00D7CC36 /* MGAppDelegate.m in Sources */,
+				ABC2C958194EAE4E00D7CC36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC2C965194EAE4E00D7CC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2C976194EAE4E00D7CC36 /* SnoreRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC2C96E194EAE4E00D7CC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC2C947194EAE4E00D7CC36 /* SnoreRecorder */;
+			targetProxy = ABC2C96D194EAE4E00D7CC36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC2C954194EAE4E00D7CC36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC2C955194EAE4E00D7CC36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABC2C95A194EAE4E00D7CC36 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC2C95B194EAE4E00D7CC36 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABC2C960194EAE4E00D7CC36 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC2C961194EAE4E00D7CC36 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABC2C972194EAE4E00D7CC36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC2C973194EAE4E00D7CC36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC2C977194EAE4F00D7CC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABC2C978194EAE4F00D7CC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABC2C97A194EAE4F00D7CC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoreRecorder/SnoreRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SnoreRecorder/SnoreRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABC2C97B194EAE4F00D7CC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoreRecorder/SnoreRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SnoreRecorder/SnoreRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABC2C97D194EAE4F00D7CC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnoreRecorder.app/Contents/MacOS/SnoreRecorder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoreRecorder/SnoreRecorder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnoreRecorderTests/SnoreRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABC2C97E194EAE4F00D7CC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnoreRecorder.app/Contents/MacOS/SnoreRecorder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoreRecorder/SnoreRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SnoreRecorderTests/SnoreRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC2C943194EAE4E00D7CC36 /* Build configuration list for PBXProject "SnoreRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC2C977194EAE4F00D7CC36 /* Debug */,
+				ABC2C978194EAE4F00D7CC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC2C979194EAE4F00D7CC36 /* Build configuration list for PBXNativeTarget "SnoreRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC2C97A194EAE4F00D7CC36 /* Debug */,
+				ABC2C97B194EAE4F00D7CC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC2C97C194EAE4F00D7CC36 /* Build configuration list for PBXNativeTarget "SnoreRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC2C97D194EAE4F00D7CC36 /* Debug */,
+				ABC2C97E194EAE4F00D7CC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC2C940194EAE4E00D7CC36 /* Project object */;
+}
