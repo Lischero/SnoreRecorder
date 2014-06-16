@@ -702,6 +702,51 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45u-cG-eYk">
+                        <rect key="frame" x="55" y="314" width="75" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="1wb-n6-hSH">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" title="OtherViews" id="0v2-3y-pyc">
+                                <items>
+                                    <menuItem title="Item 1" id="ZE4-SC-zUN"/>
+                                    <menuItem title="Item 2" id="EMO-gn-8EA"/>
+                                    <menuItem title="Item 3" id="bQx-VA-Q1m"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxG-3c-7mR">
+                        <rect key="frame" x="154" y="314" width="75" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="LKT-fS-3gn" id="XbX-Bu-KPG">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" title="OtherViews" id="23b-3r-M1x">
+                                <items>
+                                    <menuItem title="Item 1" state="on" id="LKT-fS-3gn"/>
+                                    <menuItem title="Item 2" id="yfW-Tr-ir1"/>
+                                    <menuItem title="Item 3" id="9yp-lJ-Z5i"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRS-od-tOY">
+                        <rect key="frame" x="255" y="314" width="75" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="YMi-hT-e3A" id="y16-Oj-Fea">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" title="OtherViews" id="umT-nR-I6j">
+                                <items>
+                                    <menuItem title="Item 1" state="on" id="YMi-hT-e3A"/>
+                                    <menuItem title="Item 2" id="CIb-4S-411"/>
+                                    <menuItem title="Item 3" id="Dgk-j6-vIt"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
                 </subviews>
             </view>
         </window>
