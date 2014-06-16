@@ -214,7 +214,7 @@
 			attributes = {
 				CLASSPREFIX = MG;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "藤森浩平";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					ABC2C968194EAE4E00D7CC36 = {
 						TestTargetID = ABC2C947194EAE4E00D7CC36;
