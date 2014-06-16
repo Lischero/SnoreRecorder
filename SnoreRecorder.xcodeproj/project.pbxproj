@@ -18,6 +18,9 @@
 		ABC2C96C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */; };
 		ABC2C974194EAE4E00D7CC36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC2C972194EAE4E00D7CC36 /* InfoPlist.strings */; };
 		ABC2C976194EAE4E00D7CC36 /* SnoreRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2C975194EAE4E00D7CC36 /* SnoreRecorderTests.m */; };
+		ABCDEACA194EBA93003895BD /* MGRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEAC9194EBA93003895BD /* MGRecorder.m */; };
+		ABCDEACD194EBAC8003895BD /* MGInfoTransmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCDEACC194EBAC8003895BD /* MGInfoTransmitter.m */; };
+		ABCDEACF194EBCE7003895BD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCDEACE194EBCE7003895BD /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		ABC2C971194EAE4E00D7CC36 /* SnoreRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnoreRecorderTests-Info.plist"; sourceTree = "<group>"; };
 		ABC2C973194EAE4E00D7CC36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC2C975194EAE4E00D7CC36 /* SnoreRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnoreRecorderTests.m; sourceTree = "<group>"; };
+		ABCDEAC8194EBA93003895BD /* MGRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecorder.h; sourceTree = "<group>"; };
+		ABCDEAC9194EBA93003895BD /* MGRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecorder.m; sourceTree = "<group>"; };
+		ABCDEACB194EBAC8003895BD /* MGInfoTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGInfoTransmitter.h; sourceTree = "<group>"; };
+		ABCDEACC194EBAC8003895BD /* MGInfoTransmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGInfoTransmitter.m; sourceTree = "<group>"; };
+		ABCDEACE194EBCE7003895BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCDEACF194EBCE7003895BD /* AudioToolbox.framework in Frameworks */,
 				ABC2C94C194EAE4E00D7CC36 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +104,7 @@
 		ABC2C94A194EAE4E00D7CC36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABCDEACE194EBCE7003895BD /* AudioToolbox.framework */,
 				ABC2C94B194EAE4E00D7CC36 /* Cocoa.framework */,
 				ABC2C96A194EAE4E00D7CC36 /* XCTest.framework */,
 				ABC2C94D194EAE4E00D7CC36 /* Other Frameworks */,
@@ -119,6 +129,10 @@
 				ABC2C95E194EAE4E00D7CC36 /* MGAppDelegate.m */,
 				ABC2C960194EAE4E00D7CC36 /* MainMenu.xib */,
 				ABC2C963194EAE4E00D7CC36 /* Images.xcassets */,
+				ABCDEAC8194EBA93003895BD /* MGRecorder.h */,
+				ABCDEAC9194EBA93003895BD /* MGRecorder.m */,
+				ABCDEACB194EBAC8003895BD /* MGInfoTransmitter.h */,
+				ABCDEACC194EBAC8003895BD /* MGInfoTransmitter.m */,
 				ABC2C952194EAE4E00D7CC36 /* Supporting Files */,
 			);
 			path = SnoreRecorder;
@@ -254,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC2C95F194EAE4E00D7CC36 /* MGAppDelegate.m in Sources */,
+				ABCDEACD194EBAC8003895BD /* MGInfoTransmitter.m in Sources */,
+				ABCDEACA194EBA93003895BD /* MGRecorder.m in Sources */,
 				ABC2C958194EAE4E00D7CC36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +483,7 @@
 				ABC2C97B194EAE4F00D7CC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC2C97C194EAE4F00D7CC36 /* Build configuration list for PBXNativeTarget "SnoreRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +492,7 @@
 				ABC2C97E194EAE4F00D7CC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
